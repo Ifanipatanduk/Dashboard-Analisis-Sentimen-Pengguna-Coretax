@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/header.jsx";
 import Footer from "../components/footer.jsx";
-import Grafik from "../components/grafik.jsx";
+import Visualisasi from "../components/visualisasi.jsx";
 import Card from "../components/card.jsx";
 
 const Dashboard = () => {
@@ -18,7 +18,7 @@ const Dashboard = () => {
 
         <div className="mb-4 mt-4">
           <Card />
-          <Grafik/>
+          <Visualisasi/>
         </div>
       </div>
       <Footer />
